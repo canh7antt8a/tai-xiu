@@ -1,0 +1,44 @@
+#loginListGame {
+    height: 100%;
+    position: absolute;
+    background: #303f40;
+    width: 100%;
+}
+#welcome {
+    padding-top: 30px;
+    font-size: 30px;
+    color: #00ff33;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    top: 250px;
+}
+.wrapperListGame {
+    position: absolute;
+    top: 15%;
+    left: 16%;
+    right: 17%;
+    bottom: 15%;
+    text-align: center;
+}
+.hvr-push {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    margin: 0 1.5rem;
+    padding: 0;
+}
+.amountPPXiu{
+    position: absolute;
+    color: #fff;
+    left: 17%;
+    top: 50%;
+}
+.amountPPTai{
+    position: absolute;
+    color: #fff;
+    right: 17%;
+    top: 50%;
+}

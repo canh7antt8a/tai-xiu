@@ -1,0 +1,1149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+/* index */
+    .common{
+        background: url(../img/top_bg123.png)no-repeat center center;
+        height: 180px;    
+    }
+    /* header */
+    .header_menu {
+        background: #35302e;
+        border-top: 4px solid #b6751d;
+        border-bottom: 4px solid #b6751d;
+        box-shadow: 0 2px 21px rgba(0,0,0,0.6);
+        position: relative;
+        z-index: 2;
+    }
+    #login {
+        text-align: center;
+    }
+    #login > button {
+        margin: 2px;
+    }
+    /* bodyer */
+        /*top cao thu */
+        .sidebar_content {
+            width: 300px;
+            float: left;
+            position: relative;
+            margin-top: 20px;
+        }
+        .sidebar_content .top_content {
+            width: 100%;
+            box-shadow: 5px 6px 7px rgba(0,0,0,0.5);
+            margin-bottom: 20px;
+            float: left;
+            position: relative;
+        }
+        .sidebar_content .top_content .title_game {
+            height: 55px;
+            margin-top: 0;
+            background: url(../img/bgTop.jpg);
+        }
+        .title_game {
+            margin: 10px 0;
+            background: url(../_i/home/inner_bg4e17.png?d=25_8_2015_0?d=25_8_2015_0) no-repeat left bottom;
+            width: 100%;
+            height: 80px;
+            position: absolute;
+        }
+        .sidebar_content .top_content.danhhieu.daigia .title_game .icon {
+            background-position: -191px 0;
+            width: 70px;
+            height: 60px;
+            top: -12px;
+            margin-left: 10px;
+        }
+        .title_game .icon {
+            background: url(../img/huyHieu.png) no-repeat;
+            display: block;
+            float: left;
+            margin-right: 10px;
+            position: relative;
+        }
+        .title_game .text {
+            font-size: 16px;
+            font-family: 'UTMBanque',arial;
+            text-transform: uppercase;
+            color: white;
+            margin-top: 10px;
+            font-weight: bold;
+            float: left;
+            text-shadow: 1px 1px 1px #bd4e06;
+            text-shadow: -1px 0 #bd4e06, 0 1px #bd4e06, 1px 0 #bd4e06, 0 -1px #bd4e06;
+        }
+        .sidebar_content .top_content .content_wrapper {
+            padding: 60px 0 0 0;
+            width: 100%;
+        }
+        .sidebar_content .top_content.danhhieu .content_wrapper ul {
+            height: 370px;
+            overflow: hidden;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        .sidebar_content .top_content.danhhieu .content_wrapper ul li:nth-child(2n+1), .sidebar_content .top_content.danhhieu .content_wrapper ul li:hover {
+            background: rgba(0,0,0,0.3);
+        }
+        .sidebar_content .top_content.danhhieu .content_wrapper ul li {
+            font-family: 'HelvelR',arial;
+            font-size: 14px;
+            padding: 9px 10px 5px 20px;
+            width: 100%;
+            color: #c2c2c2;
+            height: 37px;
+            float: left;
+        }
+        .sidebar_content .top_content.danhhieu .content_wrapper ul li.no1 .number {
+            background-position: 0 0;
+        }
+        .sidebar_content .top_content.danhhieu .content_wrapper ul li .username {
+            float: left;
+            margin-right: 5px;
+            margin-left: 10px;
+        }
+        .sidebar_content .top_content.danhhieu .content_wrapper ul li.no1 .money {
+            color: #fdbf18;
+        }
+        .sidebar_content .top_content.danhhieu .content_wrapper ul li .number {
+            width: 14px;
+            height: 19px;
+            background: url(../img/huyChuong.png) no-repeat;
+            display: block;
+            float: left;
+            background-position: 0 -58px;
+        }
+        .sidebar_content .top_content.danhhieu .content_wrapper ul li .money {
+            float: right;
+            text-align: right;
+        }
+        .sidebar_content .top_content.danhhieu .content_wrapper ul li.no2 .number {
+            background-position: 0 -20px;
+        }
+        .sidebar_content .top_content.danhhieu .content_wrapper ul li.no2 .money {
+            color: white;
+        }
+        .sidebar_content .top_content.danhhieu .content_wrapper ul li.no3 .number {
+            background-position: 0 -39px;
+        }
+
+        .sidebar_content .top_content.danhhieu .content_wrapper ul li.no3 .money {
+            color: #ad6a14;
+        }
+        /* top dai gia */
+        .sidebar_content .top_content {
+            /* background: url(../_i/home/bg_body_right4e17.png?d=25_8_2015_0?d=25_8_2015_0) repeat; */
+            width: 100%;
+            box-shadow: 5px 6px 7px rgba(0,0,0,0.5);
+            margin-bottom: 20px;
+            float: left;
+            position: relative;
+        }
+        .sidebar_content .top_content .title_game {
+            height: 55px;
+            margin-top: 0;
+            background: url(../img/bgTop.jpg);
+        }
+        .sidebar_content .top_content.danhhieu.caothu .title_game .icon {
+            background-position: -261px 0;
+            width: 58px;
+            height: 60px;
+            top: -4px;
+            margin-left: 10px;
+        }
+        .carousel-inner{
+            border-radius: 5px
+        }
+        /* menu */
+        .menus .menu_item {
+            float: left;
+            position: relative;
+            padding: 13px 0;
+            z-index: 3;
+        }
+        .menus .menu_item a {
+            font-family: 'UTMBanque',arial;
+            font-size: 13px;
+            text-transform: uppercase;
+            color: white;
+            padding: 10px 8px;
+            display: block;
+            float: left;
+            margin-right: 3px;
+        }
+        .menus .menu_item .menu_dropdown {
+            position: absolute;
+            width: 185px;
+            display: none;
+            background: #332e2c;
+            z-index: 15;
+            top: 55px;
+        }
+        .menus .menu_item .menu_dropdown li {
+            width: 100%;
+            float: left;
+            position: relative;
+        }
+        .menus .menu_item .menu_dropdown li a {
+            width: 100%;
+            float: left;
+            line-height: 20px;
+            border-radius: 0;
+            font-family: 'OpenSans',Arial,Tahoma;
+            transition: all .8s ease;
+            padding: 7px 10px;
+            text-transform: none;
+            font-family: 'HelvelR',arial;
+            font-size: 13px;
+            margin-right: 3px;
+        }
+        .menus .menu_item:hover .menu_dropdown{
+            display:block
+        }
+        .menu {
+            border: 1px solid red;
+            height: 100%;
+        }
+
+
+/* login */
+#loginListGame {
+    height: 100%;
+    position: absolute;
+    background: #303f40;
+    width: 100%;
+}
+#welcome {
+    padding-top: 30px;
+    font-size: 30px;
+    color: #00ff33;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    top: 250px;
+}
+.wrapperListGame {
+    position: absolute;
+    top: 15%;
+    left: 16%;
+    right: 17%;
+    bottom: 15%;
+    text-align: center;
+}
+/* list game */
+    .hvr-push {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        margin: 0 1.5rem;
+        padding: 0;
+    }
+    #loginArena img {
+        border-radius: 35px;
+        width: 155px;
+        height: 185px;
+    }
+    #loginCrabGourd img {
+        width: 161px;
+        height: 181px;
+    }
+    @-webkit-keyframes hvr-push {
+        50% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        }
+        100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        }
+    }
+    .hvr-push:hover, .hvr-push:focus, .hvr-push:active {
+        -webkit-animation-name: hvr-push;
+        animation-name: hvr-push;
+        -webkit-animation-duration: 0.3s;
+        animation-duration: 0.3s;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+    }
+
+/* dat cuoc */
+    .datCuoc .btnCuoc{
+        border: 1px solid #fff;
+        background: #f5721c; 
+    }
+    .datCuoc{
+        border: 1px solid #fff;
+    }
+
+/* lich su icon */
+    .incon{
+        position: absolute;
+    }
+    .inconCham{
+        position: absolute;
+    }
+.iDVan{
+    position: absolute;
+    color: #fff;
+}
+/* xiu */
+    .amountPPXiu {
+        position: absolute;
+        color: #fff;
+    }
+    .textXiu{
+        position: absolute;
+        color: #53fb00d6;
+    }
+    .totalMoneyXiu{
+        position: absolute;
+        color: #fff;
+    }
+    .moneyXiu {
+        position: absolute;
+        color: #fff;
+    }
+    .btnXiu{
+        color: #fff;
+        background: #824a00;
+        position: absolute;
+    }
+/* tai */
+    .amountPPTai {
+        position: absolute;
+        color: #fff;
+    }
+    .textTai{
+        position: absolute;
+        color: #53fb00d6;
+    }
+    .totalMoneyTai {
+        position: absolute;
+        color: #fff;
+    }   
+    .moneyTai {
+        position: absolute;
+        color: #fff;
+        bottom: 189px;
+    }
+    .btnTai{
+        color: #fff;
+        background: #824a00;
+        position: absolute;
+    }
+    
+    
+/* tung xúc xác */
+    .tungXucXac{
+        position: absolute;
+    }
+/* bowl xd */
+    .bowlXD {
+        width: 210px;
+        position: absolute;
+        z-index: 1;
+    }
+/* time best */
+    .timeBets{
+        position: absolute;
+        color: #17131de8;
+        z-index: 2;
+    }
+/* show 3 xuc xac */
+    .threeXucXac{
+        position: absolute;
+        z-index: 2;
+    }
+/* số nút */
+    .soNut {
+        color: #deef07;
+        border: 2px solid #fff;
+        position: absolute;
+        background: #bd6b7e;
+        border-radius: 100%;
+    }
+/* thanh cong cu */
+    #logOut{
+        position: absolute;
+        color: #fff;
+    }
+    #user-pic{
+        position: relative;
+        display: inline-block;
+        background-repeat: no-repeat;
+
+    }
+/* close Tài Xỉu */
+    .closeTaiXiu{
+        position: absolute;
+        background: red;
+        color: #fff;
+        border: 1px solid;
+    }
+/* info user */
+    .infoUser{
+        border-radius: 5px;
+        z-index: 1;
+        position: absolute;
+        border: 2px solid rgba(0, 0, 0, 0.55);
+        background: #515151;
+    }
+    .infoUser2 {
+        position: absolute;
+    }
+    .infoUser3 {
+        border: 0;
+        background: red;
+        position: absolute;
+        border-radius: 5px;
+        color: #fff;
+    }
+    .infoUser4 {
+        color: #000;
+        background: #cbd4d4;
+        position: relative;
+        border: 2px solid #000;
+    }
+    .row {
+        margin: 0;
+    }
+/* list game */
+.wrapperListGame .btn {
+    margin: 0 10px;
+}
+/* list Help */
+    .listHelp {
+        width: 100%;
+        position: absolute;
+        top: 87%;
+        text-align: center;
+    }
+    .listHelp img {
+        border-radius: 5px;
+    }
+    .btnHelp .btn{
+        width: 129px;
+        height: 55px;
+    }
+    .displayRecharge {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        
+    }
+    .framesRecharge {
+        padding: 0;
+        position: relative;
+        border: 1px solid #000;
+        z-index: 2;
+    }
+    .closeFramesRecharge{
+        padding: 0 10px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: red;
+        color: #fff;
+    }
+    .frameOut{
+        padding: 40px;
+        background: #525252;
+    }
+    .frameIn{
+        padding: 20px;
+        border: 1px solid #000;
+        background: #58585a;
+        border-radius: 10px;
+    }
+    .NTDT{
+        color: #fff;
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .frameLoaded td, .frameLoaded th{
+        border-top: 0;
+    }
+    .cardType{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .cardType img{
+        padding: 0;
+        width: 100px;
+        height: 55px;
+        margin: 0 10px;
+        opacity: 0.5;
+    }
+    .cardType img:hover{
+        opacity: 1;
+    }
+    .btnNap{
+        padding: 0 70px;
+        margin-top: 50px;
+        background: #dd6b00;
+        color: #fff;
+    }
+
+/* CÂN CỬA */
+.canCua{
+    position: absolute;
+    bottom: 9%;
+    left: 38%;
+    font-size: 27px;
+    color: #fdbf18;
+}
+
+/* frames game */
+  .draw {
+    overflow: hidden;
+  }
+  .draw::before, .draw::after {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    border: 5px solid transparent;
+    width: 0;
+    height: 0;
+  }
+  .draw::before {
+    top: 0;
+    left: 0;
+    border-top-color: rgb(241, 0, 181);
+    border-right-color: #00bd4fda;
+    animation: border 1s infinite;
+  }
+  .draw::after {
+    bottom: 0;
+    right: 0;
+    animation: border 1s 1s infinite, borderColor 1s 1s infinite;
+  }
+  
+  @keyframes border {
+    0% {
+      width: 0;
+      height: 0;
+    }
+    25% {
+      width: 100%;
+      height: 0;
+    }
+    50% {
+      width: 100%;
+      height: 100%;
+    }
+    100% {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  @keyframes borderColor {
+    0% {
+      border-bottom-color: #60daaa;
+      border-left-color: #60daaa;
+    }
+    50% {
+      border-bottom-color: #60daaa;
+      border-left-color: #60daaa;
+    }
+    51% {
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    }
+    100% {
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    }
+  }
+
+/* luật chơi */
+.luatTaiXiu{
+    position: absolute;
+    color: #fff;
+    width: 300px;
+    margin-bottom: 15px;
+    border: 1px solid #625858;
+    z-index: 1;
+    border-radius: 5px;
+}
+.framseLuatTaiXiu{
+    background: #20204f;
+    padding: 5px;
+}
+.luat{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.chatTaiXiu{
+    top: 0;
+    right: 0;
+    position: absolute;
+    color: #fff;
+    margin-bottom: 15px;
+    z-index: 1;
+    border-radius: 5px;
+    right: 0;
+    margin: 19px 19px 0 0;
+    width: 300px;
+    background: #20204f;
+}
+.framseChatTaiXiu{
+    border: 1px solid #625858;
+    width: 300px;
+    height: 864px;
+}
+.sendChat{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.contentChat{
+    position: absolute;
+    bottom: 50px;
+    padding: 10px;
+    width: 100%;
+    max-height: 90%;
+    overflow: auto;
+}
+.contentChat div{
+    font-size: 14px
+}
+.contentChat strong{
+    color: #000;
+    font-size: 16px;
+}
+.nhacNen{
+    position: absolute;
+    right: 10px;
+    bottom: 29px;
+    width: 40px;
+    height: 36px;
+}
+/* @media (min-width: 576px)
+.container {
+    max-width: 540px;
+} */
+
+
+
+/* @media (min-width: 768px)
+.container {
+    max-width: 720px;
+} */
+
+
+
+@media (min-width: 992px){
+    body{
+        font-size: 17px;
+    }
+    /* dat cuoc */
+        .datCuoc .btnCuoc{
+            width: 19%;
+            border-radius: 5px;
+        }
+        .datCuoc{
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+    /* lich su icon */
+        .incon{
+            bottom: 4%;
+            margin: 0 30px;
+            left: 1%;
+        }
+        .inconCham{
+            bottom: -11%;
+            font-size: 20px;
+            left: 5px;
+        }
+        .iDVan{
+            left: 35%;
+            font-size: 25px;
+            top: 33%;
+            width: 226px
+        }
+    /* xiu */
+        .amountPPXiu {
+            left: 121px;
+            top: 308px;
+            width: 67px;
+        }
+        .textXiu{
+            font-size: 54px;
+            left: 90px;
+            bottom: 29%;
+            font-weight: 900;
+        }
+        .totalMoneyXiu{
+            bottom: 42%;
+            left: 79px;
+            font-size: 17px;
+            width: 113px;
+        }
+        .moneyXiu {
+            left: 86px;
+            bottom: 150px;
+            width: 99px;
+        }
+        .btnXiu{
+            font-size: 15px;
+            width: 130px;
+            bottom: 67px;
+            left: 72px;
+            font-weight: bold;
+        }
+    /* tai */
+        .amountPPTai {
+            right: 81px;
+            top: 308px;
+            width: 67px;
+        }
+        .textTai{
+            font-size: 54px;
+            right: 90px;
+            bottom: 29%;
+            font-weight: 900;
+        }
+        .totalMoneyTai {
+            bottom: 42%;
+            right: 79px;
+            font-size: 17px;
+            width: 113px;
+        }   
+        .moneyTai {
+            right: 86px;
+            bottom: 150px;
+            width: 99px;
+        }
+        .btnTai{
+            font-size: 15px;
+            width: 130px;
+            bottom: 67px;
+            right: 72px;
+            font-weight: bold;
+        }
+        
+        
+    /* tung xúc xác */
+        .tungXucXac{
+            width: 233px;
+            height: 250px;
+            left: 263px;
+            bottom: 94px;
+        }
+    /* bowl xd */
+        .bowlXD {
+            width: 172px;
+            left: 293px;
+            top: 311px;
+            z-index: 1;
+        }
+    /* time best */
+        .timeBets{
+            left: 334px;
+            z-index: 2;
+            bottom: 179px;
+            font-size: 55px;
+            font-weight: bold;
+            width: 90px;
+            height: 90px;
+        }
+    /* show 3 xuc xac */
+        .threeXucXac{
+            max-width: 140px;
+            max-height: 140px;
+            left: 312px;
+            z-index: 2;
+            bottom: 163px;
+        }
+        .threeXucXac img{
+            width: 55px;
+        }
+    /* số nút */
+        .soNut {
+            font-size: 21px;
+            left: 359px;
+            width: 34px;
+            height: 34px;
+            border-radius: 100%;
+            bottom: 51px;
+        }
+    /* thông báo lỗi */
+        .alertBet{
+            position: absolute;
+            font-size: 25px;
+            left: 355px;
+            bottom: 68px;
+            color: red;
+        }
+    /* thanh cong cu */
+        #logOut{
+            right: 30px;
+            top: 30px;
+        }
+        #user-pic{
+            top: -3px;
+            width: 40px;
+            height: 40px;
+            background-size: 40px;
+            border-radius: 20px;
+
+        }
+    /* close Tài Xỉu */
+        .closeTaiXiu{
+            font-size: 23px;
+            padding: 0 10;
+            border-radius: 3px;
+            right: 0;
+            top: 142px;
+        }
+    /* info user */
+        .infoUser{
+            padding: 35px 5px 5px;
+            border-radius: 5px;
+            z-index: 1;
+            left: 42%;
+            width: 250px;
+            height: 192px;
+            top: 40%;
+        }
+        .infoUser2 {
+            left: 45px;
+            top: 7px;
+        }
+        .infoUser3 {
+            border: 0;
+            top: 4px;
+            right: 5px;
+            border-radius: 5px;
+            padding: 0;
+            width: 25px;
+        }
+        .infoUser4 {
+            border-radius: 5px;
+            width: 100%;
+            height: 100%;
+            font-size: 13px;
+        }
+        .row {
+            margin: 0;
+        }
+        .draw {
+            position: absolute;
+            width: 158px;
+            height: 203px;
+            border-radius: 37px;
+            background: none;
+            border: 0;
+            box-sizing: border-box;
+            box-shadow: inset 0 0 0 5px #000000;
+            color: #f45e61;
+            font-size: inherit;
+            font-weight: 700;
+            margin: 1em;
+            padding: 1em 2em;
+            text-align: center;
+            text-transform: capitalize;
+            vertical-align: middle;
+        }
+        .drawTai {
+            right: 40px;
+            bottom: 107px;
+        }
+        .drawXiu {
+            left: 38px;
+            bottom: 107px;
+        }
+        .DatCuoc .btn{
+            line-height: 1.2;
+        }
+        #welcome {
+            font-size: 23px;
+        }
+        #user-pic {
+            width: 30px;
+            height: 30px;
+            background-size: 30px;
+        }
+        #user-name{
+            font-size: 15px;
+        }
+        #sign-out{
+            line-height: 1.2;
+            font-size: 14px;
+        }
+        .listGame img{
+            width: 110px;
+        }
+        #loginArena img {
+            width: 100px;
+            height: 125px;
+        }
+        #loginCrabGourd img {
+            width: 100px;
+            height: 125px;
+        }
+}
+    
+
+
+
+@media (min-width: 1200px){
+    body{
+        font-size: 20px;
+    }
+    /* dat cuoc */
+        .datCuoc .btnCuoc{
+            width: 19%;
+            border-radius: 5px;
+        }
+        .datCuoc{
+            border-radius: 5px;
+            padding: 10px;
+        }
+    
+    /* lich su icon */
+        .incon{
+            bottom: 4%;
+            margin: 0 30px;
+            left: 1%;
+        }
+        .inconCham{
+            bottom: -10%;
+            font-size: 25px;
+            left: 0;
+        }
+    .iDVan{
+        left: 35%;
+        font-size: 30px;
+        top: 33%;
+        width: 280px;
+    }
+    /* xiu */
+        .amountPPXiu {
+            left: 148px;
+            top: 50%;
+            width: 80px;
+        }
+        .textXiu{
+            font-size: 63px;
+            left: 12%;
+            bottom: 29%;
+            font-weight: 900;
+        }
+        .totalMoneyXiu{
+            bottom: 42%;
+            left: 79px;
+            font-size: 20px;
+            width: 175px;
+        }
+        .moneyXiu {
+            left: 100px;
+            bottom: 189px;
+            width: 137px;
+        }
+        .btnXiu{
+            width: 160px;
+            bottom: 100px;
+            left: 90px;
+        }
+    /* tai */
+        .amountPPTai {
+            right: 104px;
+            top: 50%;
+            width: 80px;
+        }
+        .textTai{
+            font-size: 63px;
+            right: 12%;
+            bottom: 29%;
+            font-weight: 900;
+        }
+        .totalMoneyTai {
+            width: 175px;
+            bottom: 42%;
+            right: 81px;
+            font-size: 20px;
+        }   
+        .moneyTai {
+            width: 139px;
+            right: 97px;
+            bottom: 189px;
+        }
+        .btnTai{
+            font-weight: bold;
+            width: 160px;
+            bottom: 100px;
+            right: 85px;
+        }
+        
+        
+    /* tung xúc xác */
+        .tungXucXac{
+            width: 308px;
+            height: 309px;
+            left: 315px;
+            bottom: 117px;
+        }
+    /* bowl xd */
+        .bowlXD {
+            width: 210px;
+            left: 364px;
+            top: 385px;
+            z-index: 1;
+        }
+    /* time best */
+        .timeBets{
+            left: 424px;
+            z-index: 2;
+            bottom: 243px;
+            font-size: 70px;
+            font-weight: bold;
+            width: 90px;
+            height: 90px;
+        }
+    /* show 3 xuc xac */
+        .threeXucXac{
+            max-width: 167px;
+            max-height: 143px;
+            left: 389px;
+            z-index: 2;
+            bottom: 197px;
+        }
+        .threeXucXac img{
+            width: 70px;
+        }
+    /* số nút */
+        .soNut {
+            font-size: 25px;
+            left: 450px;
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            bottom: 65px;
+        }
+    /* thanh cong cu */
+        #logOut{
+            right: 30px;
+            top: 30px;
+        }
+        #user-pic{
+            top: -3px;
+            width: 40px;
+            height: 40px;
+            background-size: 40px;
+            border-radius: 20px;
+    
+        }
+    /* close Tài Xỉu */
+        .closeTaiXiu{
+            font-size: 23px;
+            padding: 0 10;
+            border-radius: 3px;
+            right: 0;
+            top: 142px;
+        }
+    /* info user */
+        .infoUser{
+            padding: 35px 5px 5px;
+            border-radius: 5px;
+            z-index: 1;
+            left: 42%;
+            width: 250px;
+            height: 192px;
+            top: 40%;
+        }
+        .infoUser2 {
+            left: 45px;
+            top: 7px;
+        }
+        .infoUser3 {
+            border: 0;
+            top: 4px;
+            right: 5px;
+            border-radius: 5px;
+            padding: 0;
+            width: 25px;
+        }
+        .infoUser4 {
+            border-radius: 5px;
+            width: 100%;
+            height: 100%;
+            font-size: 13px;
+        }
+        .row {
+            margin: 0;
+        }
+        .drawXiu{
+            left: 49px;
+            bottom: 135px;
+        }
+        .drawTai{
+            right: 51px;
+            bottom: 135px;
+        }
+        .draw {
+            position: absolute;
+            width: 194px;
+            height: 247px;
+            border-radius: 40px;
+            background: none;
+            border: 0;
+            box-sizing: border-box;
+            box-shadow: inset 0 0 0 5px #000000;
+            color: #f45e61;
+            font-size: inherit;
+            font-weight: 700;
+            margin: 1em;
+            padding: 1em 2em;
+            text-align: center;
+            text-transform: capitalize;
+            vertical-align: middle;
+          }
+        .DatCuoc .btn{
+            line-height: 1.5;
+        }
+        #welcome {
+            font-size: 30px
+        }
+        #user-pic {
+            width: 40px;
+            height: 40px;
+            background-size: 40px;
+        }
+        #user-name{
+            font-size: 20px;
+        }
+        #sign-out{
+            line-height: 1.5;
+            font-size: 17px;
+        }
+        .listGame img{
+            width: 140px;
+        }
+        #loginArena img {
+            width: 131px;
+            height: 155px;
+        }
+        #loginCrabGourd img {
+            width: 131px;
+            height: 155px;
+        }
+}
+
+
+
